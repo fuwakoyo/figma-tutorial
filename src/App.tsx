@@ -1,21 +1,21 @@
-import {
-  BrowserRouter,
-  Route,
-  Routes
-} from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Layout from './Layout';
+import Home from './Home';
+import About from './About';
+import './index.css';
 
-const AppRoutes = () => {
+const App = () => {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-      </Routes>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Layout>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default AppRoutes;
+export default App;
