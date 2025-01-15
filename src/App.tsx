@@ -1,18 +1,24 @@
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Layout from './Layout';
-import Home from './Home';
-import About from './About';
 import './index.css';
+import Hero from './Hero';
+import Body from './Body';
+import Container from './Container';
+import Content from './Content';
+import InfoImage from './InfoImage';
 
 const App = () => {
   return (
     <BrowserRouter>
       <Layout>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
+        <Hero/>
+        <Body>
+          <Container>
+            <Content title="title" description="content"/>
+            <InfoImage src="Guidance.svg" alt="Guidance"/>
+          </Container>
+        </Body>
       </Layout>
     </BrowserRouter>
   );
