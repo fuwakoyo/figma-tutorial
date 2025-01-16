@@ -3,7 +3,7 @@ import React from 'react'
 export default function GuidanceDescription() {
   return (
     <div className="w-[655px] h-[192px] font-normal text-custom-gray "> 
-        <p>Material.io supports this design kit with documentation and</p>
+        <p>Material.io supports this design kit with documentation an</p>
         <p>guidance for how to use the components and styles.</p> 
         <br/>
         <p>Our specifications have been updated for Material 3 to</p>
