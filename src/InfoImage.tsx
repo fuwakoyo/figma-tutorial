@@ -7,7 +7,7 @@ interface InfoImageProps{
 
 export default function InfoImage({src,alt}:InfoImageProps) {
   return (
-    <div>
+    <div >
         <img src={src} alt={alt} />
     </div>
   )
