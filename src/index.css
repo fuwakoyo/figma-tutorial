@@ -5,4 +5,9 @@
 * {
     font-family: 'Roboto', sans-serif;
   }
-  
+
+@layer base {
+  p {
+    @apply m-0;
+  }
+}

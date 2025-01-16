@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function GuidanceDescription() {
   return (
-    <div className="w-[655px] h-[192px] font-normal text-custom-gray"> 
+    <div className="w-[655px] h-[192px] font-normal text-custom-gray "> 
         <p>Material.io supports this design kit with documentation and</p>
         <p>guidance for how to use the components and styles.</p> 
         <br/>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Typography() {
+export default function Symbols() {
   return (
     <div className="w-[655px] h-[192px] font-normal text-custom-gray"> 
         <p>Google Fonts makes it easy to bring personality and</p>

@@ -10,6 +10,7 @@ import InfoImage from './InfoImage';
 import GuidanceDescription from './GuidanceDescription';
 import PlatformsDescription from './PlatformsDescription';
 import Typography from './Typography';
+import Symbols from './Symbols';
 
 
 
@@ -31,6 +32,10 @@ const App = () => {
           <Container height="543px">
             <Content title="Typography" description={<Typography/>}/>
             <InfoImage src="Typography.svg" alt="Typography"/>
+          </Container>
+          <Container height="591px">
+            <Content title="Symbols" description={<Symbols/>}/>
+            <InfoImage src="Symbols.svg" alt="Symbols"/>
           </Container>
         </Body>
       </Layout>

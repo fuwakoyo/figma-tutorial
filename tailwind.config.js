@@ -12,5 +12,8 @@ module.exports = {
       }
     },
   },
+  corePlugins: {
+    preflight: false, // 必要に応じてpreflightを無効化
+  },
   plugins: [],
 }
