@@ -11,6 +11,9 @@ import GuidanceDescription from './GuidanceDescription';
 import PlatformsDescription from './PlatformsDescription';
 import Typography from './Typography';
 import Symbols from './Symbols';
+import Colors from './Colors';
+import Themes from './Themes';
+import Feedback from './Feedback';
 
 
 
@@ -36,6 +39,18 @@ const App = () => {
           <Container height="591px">
             <Content title="Symbols" description={<Symbols/>}/>
             <InfoImage src="Symbols.svg" alt="Symbols"/>
+          </Container>
+          <Container height="517px">
+            <Content title="Colors" description={<Colors/>}/>
+            <InfoImage src="Colors.svg" alt="Colors"/>
+          </Container>
+          <Container height="543px">
+            <Content title="Themes" description={<Themes/>}/>
+            <InfoImage src="Themes.svg" alt="Themes"/>
+          </Container>
+          <Container height="543px">
+            <Content title="Feedback" description={<Feedback/>}/>
+            <InfoImage src="Feedback.svg" alt="Feedback"/>
           </Container>
         </Body>
       </Layout>
