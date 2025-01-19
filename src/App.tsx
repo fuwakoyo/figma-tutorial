@@ -48,7 +48,7 @@ const App = () => {
             <Content title="Themes" description={<Themes/>}/>
             <InfoImage src="Themes.svg" alt="Themes"/>
           </Container>
-          <Container height="543px">
+          <Container height="543px" marginBottom='0'>
             <Content title="Feedback" description={<Feedback/>}/>
             <InfoImage src="Feedback.svg" alt="Feedback"/>
           </Container>

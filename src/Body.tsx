@@ -6,7 +6,7 @@ interface Bodyprops {
 
 const Body: React.FC<Bodyprops> = ({children}) => {
   return (
-    <div className="bg-gray-100 h-[4328px] w-[1888px] p-[70px] mt-[101px] ">
+    <div className="h-[4188px] w-[1888px] pt-[70px] px-[70px]  ">
         {children}
     </div>
   )

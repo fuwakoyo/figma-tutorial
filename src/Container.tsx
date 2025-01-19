@@ -1,14 +1,16 @@
 import React,{ReactNode}from 'react'
 
+
 interface ContainerProps {
     children:ReactNode;
     height?:string;
+    marginBottom?:string;
 }
 
-const Container:React.FC<ContainerProps> = ({children,height}) => {
+const Container:React.FC<ContainerProps> = ({children,height,marginBottom}) => {
   return (
     <div 
-      className='flex outline outline-blue-500 w-[1888px] mb-[70px]'
+      className={`flex w-[1888px] ${marginBottom === "0" ? "mb-[0px]" : `mb-[70px]`}`}
       style={{height}}
       >
         {children}
